@@ -11,7 +11,6 @@ help:  ## Display this help
 ##@ Initialize work
 
 init: ## Start a new develop enviroment
-	cp .env.example .env
 	docker-compose up -d
 	$(MAKE) install
 	$(MAKE) publish

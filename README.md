@@ -3,7 +3,7 @@
 [Main repo instructions](https://github.com/jeremykenedy/laravel-auth#installation-instructions)
 
 ```bash
-make init
+cp .env.example .env && make init
 ```
 
 ```bash
